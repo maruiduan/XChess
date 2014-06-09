@@ -12,6 +12,7 @@
 		CC975B0C19455CE700BC03C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC975B0A19455CE700BC03C3 /* Main.storyboard */; };
 		CC975B0E19455CE700BC03C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC975B0D19455CE700BC03C3 /* Images.xcassets */; };
 		CC975B1A19455CE700BC03C3 /* XChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC975B1919455CE700BC03C3 /* XChessTests.swift */; };
+		CC975B2A19458EA300BC03C3 /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC975B2919458EA300BC03C3 /* Chess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		CC975B1319455CE700BC03C3 /* XChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC975B1819455CE700BC03C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC975B1919455CE700BC03C3 /* XChessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XChessTests.swift; sourceTree = "<group>"; };
+		CC975B2919458EA300BC03C3 /* Chess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,12 @@
 		CC975B0319455CE700BC03C3 /* XChess */ = {
 			isa = PBXGroup;
 			children = (
+				CC975B2819455E1300BC03C3 /* AI */,
+				CC975B2719455E0600BC03C3 /* Helper */,
+				CC975B2619455DFB00BC03C3 /* Vendor */,
+				CC975B2519455DF100BC03C3 /* ViewController */,
+				CC975B2419455DEB00BC03C3 /* View */,
+				CC975B2319455DE300BC03C3 /* Model */,
 				CC975B0619455CE700BC03C3 /* AppDelegate.swift */,
 				CC975B0819455CE700BC03C3 /* ViewController.swift */,
 				CC975B0A19455CE700BC03C3 /* Main.storyboard */,
@@ -107,6 +115,49 @@
 				CC975B1819455CE700BC03C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC975B2319455DE300BC03C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC975B2919458EA300BC03C3 /* Chess.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC975B2419455DEB00BC03C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC975B2519455DF100BC03C3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CC975B2619455DFB00BC03C3 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		CC975B2719455E0600BC03C3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		CC975B2819455E1300BC03C3 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC975B2A19458EA300BC03C3 /* Chess.swift in Sources */,
 				CC975B0919455CE700BC03C3 /* ViewController.swift in Sources */,
 				CC975B0719455CE700BC03C3 /* AppDelegate.swift in Sources */,
 			);

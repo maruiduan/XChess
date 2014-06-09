@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DCCC7BDB-CBE6-4F7F-81EA-A24F14DAE252</string>
+	<key>IDESourceControlProjectName</key>
+	<string>XChess</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>82A16D07-65B6-42B0-ABBD-66B0958F6658</key>
+		<string>https://github.com/maruiduan/XChess.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>XChess.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>82A16D07-65B6-42B0-ABBD-66B0958F6658</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/maruiduan/XChess.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>82A16D07-65B6-42B0-ABBD-66B0958F6658</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82A16D07-65B6-42B0-ABBD-66B0958F6658</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XChess</string>
+		</dict>
+	</array>
+</dict>
+</plist>
