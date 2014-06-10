@@ -36,6 +36,7 @@
 		CC975B1819455CE700BC03C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC975B1919455CE700BC03C3 /* XChessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XChessTests.swift; sourceTree = "<group>"; };
 		CC975B2919458EA300BC03C3 /* Chess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
+		CCEB67C81947040900248926 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				CC975B0619455CE700BC03C3 /* AppDelegate.swift */,
 				CC975B0819455CE700BC03C3 /* ViewController.swift */,
 				CC975B0A19455CE700BC03C3 /* Main.storyboard */,
+				CCEB67C81947040900248926 /* MyPlayground.playground */,
 				CC975B0D19455CE700BC03C3 /* Images.xcassets */,
 				CC975B0419455CE700BC03C3 /* Supporting Files */,
 			);
@@ -449,6 +451,7 @@
 				CC975B1F19455CE700BC03C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC975B2019455CE700BC03C3 /* Build configuration list for PBXNativeTarget "XChessTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +460,7 @@
 				CC975B2219455CE700BC03C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

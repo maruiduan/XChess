@@ -7,6 +7,9 @@
 //
 
 import UIKit
+class AClass: UIViewController {
+    
+}
 
 class ViewController: UIViewController {
                             
