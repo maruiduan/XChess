@@ -8,6 +8,16 @@
 
 import UIKit
 
+protocol ChessBoardViewDelegate{
+    func chessBoardDidTouch(var chess: IChess, var location : Location);
+}
+
 class ChessBoardView : UIView{
-    
+    init(frame: CGRect) {
+        super.init(frame:frame)
+        
+    }
+    override func touchesBegan(touches: NSSet!, withEvent event: UIEvent!) {
+        
+    }
 }
